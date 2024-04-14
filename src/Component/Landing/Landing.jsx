@@ -19,6 +19,7 @@ const Landing = () => {
 
   return (
     <div className="flex justify-center items-center h-screen">
+            <div className="gradient_cover"></div>
       {imagesRef.current.map((image, index) => (
         <img
           key={index}
